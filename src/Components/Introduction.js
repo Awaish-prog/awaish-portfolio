@@ -1,8 +1,15 @@
+import "../CSS/Introduction.css"
+
 export default function Introduction(){
     return (
-        <>
-            <h1>I'm Awaish Khan</h1>
-            <h3>Full-stack Web Developer</h3>
-        </>
+        <section className="introduction">
+            <div className="intro-title">
+                <h1>I'm Awaish Khan</h1>
+                <span className="roleContainer"><h3 className="role">Full-stack Web Developer</h3></span>
+            </div>
+            <div className="intro-animation">
+                <p className="javascript-anim">Javascript</p>
+            </div>
+        </section>
     )
 }

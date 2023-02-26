@@ -1,0 +1,73 @@
+.introduction {
+    color: white;
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.intro-animation {
+    background-color: #202020;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+}
+.javascript-anim {
+    animation: javascript 5s infinite;
+}
+.intro-title > h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+.intro-title > span {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.roleContainer {
+    display: flex;
+    justify-content: center;
+}
+.role {
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    animation: changeWidth 2s infinite; 
+    animation-direction: alternate;
+}
+
+@keyframes changeWidth {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 550px;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 1.3rem;
+    }
+    25% {
+        margin-top: 50px;
+        margin-left: 150px;
+        font-size: 2rem;
+    }
+    50% {
+        margin-top: 100px;
+        margin-left: 300px;
+        font-size: 1.3rem;
+    }
+    75% {
+        margin-top: 50px;
+        margin-left: 150px;
+        font-size: 0.7rem;
+    }
+    100% {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 1.3rem;
+    }
+}
