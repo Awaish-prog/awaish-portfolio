@@ -1,0 +1,20 @@
+.tech-logo {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background-color: white;
+}
+.technologies {
+    color: white;
+    text-align: center;
+}
+.technologies-container {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
