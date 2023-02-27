@@ -7,9 +7,6 @@ export default function Introduction(){
                 <h1>I'm Awaish Khan</h1>
                 <span className="roleContainer"><h3 className="role">Full-stack Web Developer</h3></span>
             </div>
-            <div className="intro-animation">
-                <p className="javascript-anim">Javascript</p>
-            </div>
         </section>
     )
 }
