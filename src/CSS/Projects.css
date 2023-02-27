@@ -6,12 +6,33 @@
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 0 10vw 0 10vw;
+    
 }
 .projects > h2 {
     text-align: center;
 }
 .project {
-    width: 15vw;
+    width: 18vw;
     min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#1e2024;
+    padding: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.project > p {
+    margin: 0;
+}
+.project-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.project-des {
+    font-size: 1.2rem;
+}
+.project > span {
+    height: 60px;
 }

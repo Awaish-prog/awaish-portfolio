@@ -1,9 +1,9 @@
 import Project from "./Project"
 import "../CSS/Projects.css"
-import classroom from "../Images/Classroom.jfif"
+import classroom from "../Images/Classroom.png"
 import socialConn from "../Images/SocialConn.png"
 import knight from "../Images/Knight.png"
-import books from "../Images/Book.jfif"
+import books from "../Images/Book.png"
 
 export default function Projects(){
     const projects = [
