@@ -1,5 +1,9 @@
 import Project from "./Project"
 import "../CSS/Projects.css"
+import classroom from "../Images/Classroom.jfif"
+import socialConn from "../Images/SocialConn.png"
+import knight from "../Images/Knight.png"
+import books from "../Images/Book.jfif"
 
 export default function Projects(){
     const projects = [
@@ -8,6 +12,7 @@ export default function Projects(){
             des: "Built a Classroom App which allows Teachers and Students to collaborate, make announcements, share assignments, submissions and make chat rooms.",
             github: "",
             live: "",
+            image: classroom,
             id: 1,
         },
         {
@@ -15,6 +20,7 @@ export default function Projects(){
             des: "Built a Social-connections App which allows users to ",
             github: "",
             live: "",
+            image: socialConn,
             id: 2,
         },
         {
@@ -22,6 +28,7 @@ export default function Projects(){
             des: "Built a Knight position App",
             github: "",
             live: "",
+            image: knight,
             id: 3,
         },
         {
@@ -29,6 +36,7 @@ export default function Projects(){
             des: "Built a Book Matching App",
             github: "",
             live: "",
+            image: books,
             id: 4,
         }
     ]
