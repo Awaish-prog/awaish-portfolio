@@ -10,14 +10,21 @@ export default function Contact(){
     return (
         <section className="contact">
             <h2>Contact Me</h2>
-            <div>
-                <img src = {github} alt="!!"/>
-                <img src = {linkedIn} alt="!!"/>
-                <img src = {twitter} alt="!!"/>
+            <div className="socials">
+                <a href="https://github.com/Awaish-prog" target="_blank"><img src = {github} width="40px" alt="!!"/></a>
+                <a href="https://www.linkedin.com/in/awaishkhan17/" target="_blank"><img src = {linkedIn} width="40px" alt="!!"/></a>
+                <a href="https://twitter.com/Awaish_Khan17" target="_blank"><img src = {twitter} width="40px" alt="!!"/></a>
             </div>
-            <div>
-                <img src = {email} alt="!!"/>
-                <img src = {mobile} alt="!!"/>
+            <div className="mailNumber">
+                <div>
+                    <img src = {email} width="40px" alt="!!"/>
+                    <p className="email">awaishk640@gmail.com</p>
+                </div>
+                
+                <div>
+                    <img src = {mobile} width="40px" alt="!!"/>
+                    <p>+919657996887</p>
+                </div>
             </div>
         </section>
     )
