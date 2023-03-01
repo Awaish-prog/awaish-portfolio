@@ -7,14 +7,17 @@
 .socials{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 20px;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 10vw;
     margin: 50px 0;
 }
 .mailNumber {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 10vw;
     margin: 50px 0;
     flex-wrap: wrap;
 }
