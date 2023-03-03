@@ -27,6 +27,7 @@
 .project-name {
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 .project-des {
     font-size: 1.2rem;
