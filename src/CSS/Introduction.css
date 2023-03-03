@@ -4,14 +4,22 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
+    background-image: radial-gradient(#373a3e 0%, #212428 70%);
+    margin-top: 18vh;
+}
+.intro-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .intro-title > h1 {
-    font-size: 7vw;
+    font-size: 7.2vw;
     margin: 0;
+    text-align: center;
 }
 .intro-title > span {
-    font-size: 2.5vw;
+    font-size: 4.5vw;
     margin: 0;
 }
 .roleContainer {
@@ -22,7 +30,26 @@
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
-    animation: changeWidth 2s infinite; 
+    animation: changeWidth 2.5s infinite; 
+    color: #ff014f;
+    margin: 0;
+}
+button {
+    width: fit-content;
+    align-self: center;
+    background-image: linear-gradient(45deg, #26282b 30%, #191c1f);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color:#ff014f;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: margin 0.3s;
+}
+button:hover {
+    margin: 15px 0 25px 0;
+    background-image: linear-gradient(45deg, #191c1f 30%, #26282b);
 }
 
 @keyframes changeWidth {
@@ -30,7 +57,7 @@
         width: 0px;
     }
     50% {
-        width: 50vw;
+        width: 75vw;
     }
     100% {
         width: 0px;
