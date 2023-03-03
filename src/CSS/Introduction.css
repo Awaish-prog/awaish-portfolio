@@ -7,11 +7,11 @@
 }
 
 .intro-title > h1 {
-    font-size: 4rem;
+    font-size: 10vw;
     margin: 0;
 }
 .intro-title > span {
-    font-size: 2.5rem;
+    font-size: 4vw;
     margin: 0;
 }
 .roleContainer {
@@ -22,7 +22,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
-    animation: changeWidth 2s infinite; 
+    animation: changeWidth 1.7s infinite; 
     animation-direction: alternate;
 }
 
@@ -31,7 +31,7 @@
         width: 0px;
     }
     to {
-        width: 550px;
+        width: 70vw;
     }
 }
 

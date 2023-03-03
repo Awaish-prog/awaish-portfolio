@@ -6,20 +6,18 @@
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    
+    gap: 10px
 }
 .projects > h2 {
     text-align: center;
 }
 .project {
-    width: 18vw;
-    min-width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     background-color:#1e2024;
     padding: 20px;
-    height: 230px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -35,4 +33,19 @@
 }
 .project > span {
     height: 60px;
+}
+.techs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.demo {
+    border-radius: 50%;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+.links > img {
+    cursor: pointer;
 }

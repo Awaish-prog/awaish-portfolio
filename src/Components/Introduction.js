@@ -5,7 +5,7 @@ export default function Introduction(){
         <section className="introduction">
             <div className="intro-title">
                 <h1>I'm Awaish Khan</h1>
-                <span className="roleContainer"><h3 className="role">Full-stack Web Developer</h3></span>
+                <span className="roleContainer"><h3 className="role">Full-stack</h3></span>
             </div>
         </section>
     )
