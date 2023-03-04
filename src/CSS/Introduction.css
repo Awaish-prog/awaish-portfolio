@@ -63,4 +63,31 @@ button:hover {
         width: 0px;
     }
 }
+@keyframes changeWidthMobile {
+    0% {
+        width: 0px;
+    }
+    50% {
+        width: 100vw;
+    }
+    100% {
+        width: 0px;
+    }
+}
 
+@media screen and (max-width: 750px) {
+    .intro-title > h1 {
+        font-size: 1.8rem;
+    }
+    .intro-title > span {
+        font-size: 1.4rem;
+    } 
+    .role {
+        animation: changeWidthMobile 2.5s infinite; 
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .intro-title > span {
+        font-size: 1.2rem;
+    } 
+  }

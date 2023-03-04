@@ -37,3 +37,11 @@
 .technology:hover .tech-logo {
     background: linear-gradient(145deg, #191c1f,#282a2f);
 }
+@media screen and (max-width: 750px) {
+    .technologies > h2 {
+        font-size: 2rem;
+    }   
+    .technology {
+        width: 70vw;
+    }
+}

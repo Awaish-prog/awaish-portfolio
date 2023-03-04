@@ -95,7 +95,7 @@ export default function Technologies(){
     return (
         <section className="technologies">
             <Divider />
-            <h2>Technologies</h2>
+            <h2>Skills</h2>
             <div className="technologies-container">
                 {
                 technologies.map((technology) => {
