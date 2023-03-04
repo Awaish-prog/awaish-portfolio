@@ -4,6 +4,7 @@ import classroom from "../Images/Classroom.png"
 import socialConn from "../Images/SocialConn.png"
 import knight from "../Images/Knight.png"
 import books from "../Images/Book.png"
+import Divider from "./Divider"
 
 export default function Projects(){
     const projects = [
@@ -46,6 +47,7 @@ export default function Projects(){
     ]
     return (
         <section className="projects">
+            <Divider />
             <h2>Projects</h2>
             <div className="projects-container">
                 {

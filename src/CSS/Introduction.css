@@ -37,7 +37,7 @@
 button {
     width: fit-content;
     align-self: center;
-    background-image: linear-gradient(45deg, #ff014f 30%, #a30635);
+    background-image: linear-gradient(45deg, #f72866 30%, #c10e44);
     border: none;
     padding: 15px 30px;
     font-size: 1.5rem;
@@ -49,7 +49,7 @@ button {
 }
 button:hover {
     margin: 15px 0 25px 0;
-    background-image: linear-gradient(45deg, #a30635 30%, #ff014f);
+    background-image: linear-gradient(45deg, #c10e44 30%, #f72866);
 }
 
 @keyframes changeWidth {

@@ -4,11 +4,13 @@ import twitter from "../Images/Twitter.png"
 import linkedIn from "../Images/LinkedIn.png"
 import email from "../Images/Email.png"
 import mobile from "../Images/Mobile.png"
+import Divider from "./Divider"
 
 
 export default function Contact(){
     return (
         <section className="contact">
+            <Divider />
             <h2>Contact Me</h2>
             <div className="socials">
                 <a href="https://github.com/Awaish-prog" target="_blank"><img src = {github} width="40px" alt="!!"/></a>

@@ -12,6 +12,7 @@ import react from "../Images/react.png"
 import typescript from "../Images/typescriptLogo.png"
 import express from "../Images/expressLogo.png"
 import "../CSS/Technologies.css"
+import Divider from "./Divider"
 
 
 export default function Technologies(){
@@ -93,6 +94,7 @@ export default function Technologies(){
 
     return (
         <section className="technologies">
+            <Divider />
             <h2>Technologies</h2>
             <div className="technologies-container">
                 {
