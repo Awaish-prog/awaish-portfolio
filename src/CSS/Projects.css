@@ -1,6 +1,4 @@
-.projects {
-    color: white;
-}
+
 .projects-container {
     display: flex;
     justify-content: space-around;
@@ -11,18 +9,24 @@
 .projects > h2 {
     text-align: center;
     font-size: 4rem;
+    color: white;
 }
 .project {
     width: 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient(45deg, #2a2c2f 10%, #343537, #3c3c3c);
-    padding: 20px;
+    background: linear-gradient(145deg, #282a2f, #191c1f);
+    padding: 30px 20px 20px 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 20px #464e55, 0 0 .4em #535a62;
+    transition: all 0.3s;
 }
-
+.project:hover {
+    background: linear-gradient(145deg, #191c1f,#282a2f);
+    padding: 20px 20px 30px 20px;
+}
 .project > p {
     margin: 0;
 }
@@ -32,6 +36,7 @@
 }
 .project-des {
     font-size: 1.2rem;
+    color: #878e99;
 }
 .project > span {
     height: 60px;
@@ -40,6 +45,7 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    color: #878e99;
 }
 .demo {
     border-radius: 50%;
@@ -57,7 +63,8 @@
 
 .project-name, .project > h3 {
     text-align: center;
-    background: linear-gradient(45deg, #ff93b3 30%, #ff3c77);
+    color: white;
+    /* background: linear-gradient(45deg, #ff93b3 30%, #ff3c77);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
