@@ -15,7 +15,7 @@ export default function Introduction(){
             <div className="intro-title">
                 <h1>I'm Awaish Khan</h1>
                 {<span className="roleContainer"><h3 className="role" onAnimationIteration={changeRole}>{role}</h3></span>}
-                <button>Resume</button>
+                <button><a href="https://drive.google.com/file/d/1jDc27eChc73tUJ6_gs8pWKR26mAaVp81/view?usp=sharing" target="_blank">Resume</a></button>
             </div>
         </section>
     )

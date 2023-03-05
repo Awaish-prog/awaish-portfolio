@@ -6,6 +6,7 @@ header {
     top: 0;
     background-color: #212428;
     color: #c4ccd4;
+    z-index: 100;
 }
 header > h2 {
     width: 50vw;

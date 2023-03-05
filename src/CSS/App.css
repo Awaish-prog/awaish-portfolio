@@ -3,3 +3,6 @@ body {
     margin: 0;
     font-family: 'Tilt Neon', cursive;
 }
+html {
+    scroll-behavior: smooth;
+}

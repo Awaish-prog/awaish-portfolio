@@ -5,6 +5,8 @@ import socialConn from "../Images/SocialConn.png"
 import knight from "../Images/Knight.png"
 import books from "../Images/Book.png"
 import Divider from "./Divider"
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function Projects(){
     const projects = [
@@ -16,6 +18,7 @@ export default function Projects(){
             image: classroom,
             techs: ["React js", "Node js", "MongoDB", "Express js"],
             id: 1,
+            delay: 0
         },
         {
             name: "Social-connections App",
@@ -25,6 +28,7 @@ export default function Projects(){
             image: socialConn,
             techs: ["React js", "Node js", "MongoDB", "Express js", "TypeScript"],
             id: 2,
+            delay: 70
         },
         {
             name: "Knight position App",
@@ -34,6 +38,7 @@ export default function Projects(){
             image: knight,
             techs: ["React js", "TypeScript"],
             id: 3,
+            delay: 140
         },
         {
             name: "Book Matching App",
@@ -43,6 +48,7 @@ export default function Projects(){
             image: books,
             techs: ["React js", "Node js", "MongoDB", "Express js"],
             id: 4,
+            delay: 210
         }
     ]
     return (
@@ -52,7 +58,11 @@ export default function Projects(){
             <div className="projects-container">
                 {
                     projects.map((project) => {
-                        return <Project project={project} key={project.id} />
+                        return (
+                        <AnimationOnScroll animateIn="animate__fadeInUp" delay={project.delay}>
+                            <Project project={project} key={project.id} />
+                        </AnimationOnScroll>
+                        )
                     })
                 }
             </div>

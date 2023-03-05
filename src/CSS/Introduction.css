@@ -42,10 +42,12 @@ button {
     padding: 15px 30px;
     font-size: 1.5rem;
     border-radius: 5px;
-    color: #212428;
     margin: 20px 0;
     cursor: pointer;
     transition: margin 0.3s;
+}
+button > a {
+    color: #212428;
 }
 button:hover {
     margin: 15px 0 25px 0;
