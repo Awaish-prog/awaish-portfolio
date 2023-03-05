@@ -46,7 +46,7 @@ export default function Projects(){
         }
     ]
     return (
-        <section className="projects">
+        <section id="project" className="projects">
             <Divider />
             <h2>Projects</h2>
             <div className="projects-container">

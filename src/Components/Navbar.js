@@ -10,9 +10,9 @@ export default function Navbar(){
         <header>
             <h2>Portfolio</h2>
             <div className="nav-elements">
-                <p className="nav-element"><a>Projects</a></p>
-                <p className="nav-element"><a>Skills</a></p>
-                <p className="nav-element"><a>Contact</a></p>
+            <a href="#project"><p className="nav-element">Projects</p></a>
+            <a href="#skills"><p className="nav-element">Skills</p></a>
+            <a href="#contact"><p className="nav-element">Contact</p></a>
             </div>
             <div className="menu" onClick={() => setOpen(true)}>
                 <MenuIcon />
@@ -21,9 +21,9 @@ export default function Navbar(){
                 <div className="nav-mobile">
                     <span className="close-button"><CloseIcon onClick={() => setOpen(false)} /></span>
                     <div className="nav-elements-mobile">
-                        <p className="nav-element-mobile"><a>Projects</a></p>
-                        <p className="nav-element-mobile"><a>Skills</a></p>
-                        <p className="nav-element-mobile"><a>Contact</a></p>
+                        <p onClick={() => setOpen(false)} className="nav-element-mobile"><a href="#project">Projects</a></p>
+                        <p onClick={() => setOpen(false)} className="nav-element-mobile"><a href="#skills">Skills</a></p>
+                        <p onClick={() => setOpen(false)} className="nav-element-mobile"><a href="#contact">Contact</a></p>
                     </div>
                 </div>
             </Drawer>

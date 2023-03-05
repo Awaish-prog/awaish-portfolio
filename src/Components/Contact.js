@@ -9,7 +9,7 @@ import Divider from "./Divider"
 
 export default function Contact(){
     return (
-        <section className="contact">
+        <section id="contact" className="contact">
             <Divider />
             <h2>Contact Me</h2>
             <div className="socials">

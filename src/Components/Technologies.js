@@ -17,6 +17,7 @@ import Divider from "./Divider"
 
 export default function Technologies(){
 
+
     const technologies = [
         {
             image: react,
@@ -92,8 +93,10 @@ export default function Technologies(){
         }
     ]
 
+    
+    
     return (
-        <section className="technologies">
+        <section id="skills" className="technologies">
             <Divider />
             <h2>Skills</h2>
             <div className="technologies-container">

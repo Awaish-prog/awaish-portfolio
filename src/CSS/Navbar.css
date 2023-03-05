@@ -23,6 +23,11 @@ header > h2 {
     display: flex;
     gap: 40px;
     margin-right: 3vw;
+    transition: text-decoration 1s;
+}
+a {
+    text-decoration: none;
+    color: #c4ccd4;
 }
 .nav-elements:hover .nav-element {
     color: #6a6f72;
